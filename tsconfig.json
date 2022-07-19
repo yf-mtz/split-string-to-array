@@ -1,12 +1,10 @@
 {
     "compilerOptions": {
-        "outDir": "./dist",
-        "rootDir": "./src",
         "sourceMap": true,
-        "target": "ES2015",
+        "target": "ES6",
         "module": "ESNext",
         "lib": [
-            "ES6",
+            "ES2021",
             "dom"
         ],
         "noEmitOnError": true

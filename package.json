@@ -1,11 +1,11 @@
 {
     "name": "str2array",
-    "version": "1.0.1",
-    "description": "字符串分割数组",
+    "version": "1.0.2",
+    "description": "根据正则表达式把字符串分割为数组",
     "main": "dist/index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "tsc --outDir ./dist"
+        "build": "tsc src/index.ts --outDir ./dist"
     },
     "author": "YangFan",
     "license": "ISC",
