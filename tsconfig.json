@@ -7,7 +7,8 @@
             "ES2021",
             "dom"
         ],
-        "noEmitOnError": true
+        "noEmitOnError": true,
+        "esModuleInterop": true
     },
     "declaration": true,
     "declarationMap": true,

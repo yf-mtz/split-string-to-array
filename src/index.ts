@@ -1,12 +1,3 @@
-/**
- *
- * @param {string}str
- * @param {Object}[config]
- * @param {RegExp}[config.regExp = /^[\u4e00-\u9fa5-_a-zA-Z\d]+$/] 默认为中英文数字和_-
- * @param {boolean}[config.notRepeat = true] 是否在结果中去除重复值
- * @param {boolean}[config.notEmpty = true]] 是否在结果中排除空值
- * @returns {Array<string>} 返回的字符串数组
- */
 const splitStrToArray: SplitStrToArray = (str, config = {
     regExp: /^[\u4e00-\u9fa5-_a-zA-Z\d]+$/,
     notRepeat: true,
@@ -56,4 +47,5 @@ const splitStrToArray: SplitStrToArray = (str, config = {
     }
 }
 export default splitStrToArray
+
 
