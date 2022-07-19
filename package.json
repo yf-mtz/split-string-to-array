@@ -1,0 +1,15 @@
+{
+    "name": "str2array",
+    "version": "1.0.1",
+    "description": "字符串分割数组",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc --outDir ./dist"
+    },
+    "author": "YangFan",
+    "license": "ISC",
+    "dependencies": {
+        "@types/node": "^18.0.6"
+    }
+}

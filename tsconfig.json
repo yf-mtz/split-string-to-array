@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "sourceMap": true,
+        "target": "ES2015",
+        "module": "ESNext",
+        "lib": [
+            "ES6",
+            "dom"
+        ],
+        "noEmitOnError": true
+    },
+    "typeRoots": [
+        "types.d.ts"
+    ],
+    "include": [
+        "./src/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
