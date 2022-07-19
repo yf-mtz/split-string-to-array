@@ -57,4 +57,6 @@ const splitStrToArray: SplitStrToArray = (str, config = {
         return splitList
     }
 }
-export default splitStrToArray
+export {
+    splitStrToArray
+}

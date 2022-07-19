@@ -6,4 +6,4 @@
 
 ##### 引入
 
-```import splitStrToArray from 'str2Array'```
+```import { splitStrToArray } from 'str2Array'```
