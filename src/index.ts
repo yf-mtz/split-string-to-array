@@ -1,5 +1,3 @@
-import { SplitStrToArray } from './types'
-
 /**
  *
  * @param {string}str
@@ -57,6 +55,5 @@ const splitStrToArray: SplitStrToArray = (str, config = {
         return splitList
     }
 }
-export {
-    splitStrToArray
-}
+export default splitStrToArray
+

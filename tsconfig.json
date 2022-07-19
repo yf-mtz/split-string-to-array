@@ -9,6 +9,8 @@
         ],
         "noEmitOnError": true
     },
+    "declaration": true,
+    "declarationMap": true,
     "typeRoots": [
         "types.d.ts"
     ],

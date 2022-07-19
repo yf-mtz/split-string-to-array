@@ -1,6 +1,6 @@
 {
     "name": "str2array",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "根据正则表达式把字符串分割为数组",
     "main": "dist/index.js",
     "scripts": {
@@ -20,5 +20,6 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/yf-mtz/splitStringToArray"
-    }
+    },
+    "types": "src/types.d.ts"
 }

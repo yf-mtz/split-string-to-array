@@ -4,4 +4,11 @@ type Config = {
     notRepeat?: boolean
     notEmpty?: boolean
 }
-export type  SplitStrToArray = (str: Str, config: Config) => string[]
+declare global {
+    type  SplitStrToArray = (str: Str, config: Config) => string[]
+    
+}
+declare const splitStrToArray: SplitStrToArray
+export = splitStrToArray;
+
+
