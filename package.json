@@ -1,6 +1,6 @@
 {
     "name": "str2array",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "根据正则表达式把字符串分割为数组",
     "main": "dist/index.js",
     "scripts": {
