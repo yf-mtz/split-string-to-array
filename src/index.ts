@@ -1,8 +1,9 @@
-const splitStrToArray: SplitStrToArray = (str, {
-    regExp = /^[\u4e00-\u9fa5-_a-zA-Z\d]+$/,
-    notRepeat=true,
-    notEmpty= true
-}) => {
+const splitStrToArray: SplitStrToArray = (str, config = {}) => {
+    const {
+        regExp = /^[\u4e00-\u9fa5-_a-zA-Z\d]+$/,
+        notRepeat = true,
+        notEmpty = true
+    } = config
     if (typeof str !== 'string') {
         console.error('splitStrToArray: 输入的不是字符串')
         return []
